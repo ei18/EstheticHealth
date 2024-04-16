@@ -1,0 +1,65 @@
+*{
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.mainNosotros{
+    width: 100%;
+    /* min-height: 700px; */
+    height: auto;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #e9e4d4;
+
+}
+
+.contenedorPrincipal{
+    margin: 20px;
+    width: 50rem;
+    justify-content: center;
+}
+
+.card{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.cardNosotros{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 2px;
+
+}
+
+.imgNosotros{
+    width: 100%; 
+    height: 20rem; 
+    object-fit: cover;
+    border-radius: 10%;
+    /* vertical-align: middle;
+    border-style: none;
+    padding: 30px;
+    border-radius: 10%; */
+}
+
+.card-title {
+    color: #164785; 
+    font-size: 3rem; 
+    font-style: italic; 
+    margin: 10px;
+    text-align: center;
+}
+
+.card-text {
+    color: black;
+    text-align: justify;
+    padding: 2rem;
+    font-size: 1rem;
+}
